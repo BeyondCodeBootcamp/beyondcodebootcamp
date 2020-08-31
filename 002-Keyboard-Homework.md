@@ -6,11 +6,13 @@
     - Download and use either `Karabiner Elements` or `Better Touch Tool` to assign it to something useful
 - Look over the list of [Apple's Official List of Keyboard Shortcuts](https://support.apple.com/en-us/HT201236)
 - You will then create a Cheat Sheet with the alt characters and shortcuts that you find most useful
+    - **Windows** and **Linux** users, 
     - this MUST include
-        - Shift+Cmd+5 for screenshots and screen recordings
-        - Cmd+K for clear
-        - alt+2 for ™
-        - alt+g for ©
-        - alt+= for ≠
+        - Spotlight Search (or Windows or Linux Search)
+        - Screenshots & Screen Recordings (hint: on Mac it's Shift+Cmd+4 and Shift+Cmd+5)
+        - Clear Console (hint: it's Cmd+K on Mac, Windows/Linux users will have to google it)
+        - ™
+        - ©
+        - ≠
     - Find at least 10 other shortcuts and 5 other symbols to include in your cheat sheet.
       (for example: I use •, µ, and ˚ fairly frequently)
