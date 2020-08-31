@@ -4,7 +4,7 @@ Your homework is to use Markdown to create a shareable Markdown Cheat Sheet that
 
 To help I've created a [template](001-Markdown-Homework-Template.png) that you should follow. This cheat sheet is to help _you_. It will also make for a nice portfolio item.
 
-Create a Github Gist web page with the following:
+Create a [Github Gist](https://gist.github.com) web page with the following:
 
 1. A file named something similar to `Markdown-Cheatsheet.md`
 2. A large header with your web page's title
@@ -26,6 +26,39 @@ In interviews you will be asked to explain how you arrived at solutions and why 
 By practicing your communication in comfortable environments, you are preparing with similar skills.
 
 Believe it or not, having completed the primary homework assignment, you're actually more qualified in Markdown that most software developers. By using it several times in this course, you’ll truly be an expert.
+
+## Example of Content
+
+Your cheat sheet should have content that is similar to these:
+
+Here are a few resources that I recommend you use to get inspiration:
+
+- Markdown Guide:
+    - https://www.markdownguide.org/cheat-sheet/
+- Github Mastering Markdown:
+    - https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
+- Adam P’s Markdown Cheat Sheet:
+    - https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
+## Extra Resources for Learning
+
+- CommonMark **Interactive** Tutorial:
+    - https://commonmark.org/help/tutorial/
+- Markdown Guide:
+    - https://www.markdownguide.org/basic-syntax/
+- Github Mastering Markdown:
+    - https://guides.github.com/features/mastering-markdown/
+
+## Helpful Markdown Tools
+
+And although you should save your file to gist.github.com, there are 3 other Markdown editors I can recommend for editing markdown with a live preview:
+
+- Stack Edit:
+    - https://stackedit.io/app#
+- VSCode
+    - https://code.visualstudio.com/docs/languages/markdown#_markdown-preview
+- Dropbox Paper
+    - https://www.dropbox.com/paper
 
 # Bonus Assignment 1
 
