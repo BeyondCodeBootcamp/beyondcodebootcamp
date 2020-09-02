@@ -12,7 +12,7 @@
     - **Windows** and **Linux** users, 
     - this MUST include
         - Spotlight Search (or Windows or Linux Search)
-        - Screenshots & Screen Recordings (hint: on Mac it's <kbd>Shift<kbd>+<kbd>Cmd ⌘</kbd>+<kbd>4</kbd> and <kbd>Shift ⇧</kbd>+<kbd>Cmd ⌘</kbd>+<kbd>5</kbd>)
+        - Screenshots & Screen Recordings (hint: on Mac it's <kbd>Shift ⇧</kbd>+<kbd>Cmd ⌘</kbd>+<kbd>4</kbd> and <kbd>Shift ⇧</kbd>+<kbd>Cmd ⌘</kbd>+<kbd>5</kbd>)
         - Clear Console (hint: it's <kbd>Cmd ⌘</kbd>+<kbd>K</kbd> on Mac, Windows/Linux users will have to google it)
         - The Symbols Keyboard (<kbd>Alt ⌥</kbd>+<kbd>Cmd ⌘</kbd>+<kbd>Space</kbd>), take a look at the Technical Symbols (⌘) section.
         - ™
