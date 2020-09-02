@@ -14,7 +14,7 @@
         - Spotlight Search (or Windows or Linux Search)
         - Screenshots & Screen Recordings (hint: on Mac it's Shift+Cmd+4 and Shift+Cmd+5)
         - Clear Console (hint: it's Cmd+K on Mac, Windows/Linux users will have to google it)
-        - The Symbols Keyboard (<kbd>Alt⌥</kbd>+<kbd>Cmd⌘</kbd>+<kbd>space</kbd>), take a look at the Technical Symbols (⌘) section.
+        - The Symbols Keyboard (<kbd>Alt ⌥</kbd>+<kbd>Cmd ⌘</kbd>+<kbd>Space</kbd>), take a look at the Technical Symbols (⌘) section.
         - ™
         - ©
         - ≠
