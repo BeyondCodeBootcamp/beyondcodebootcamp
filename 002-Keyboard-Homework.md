@@ -14,7 +14,7 @@
         - Spotlight Search (or Windows or Linux Search)
         - Screenshots & Screen Recordings (hint: on Mac it's <kbd>Shift ⇧</kbd>+<kbd>Cmd ⌘</kbd>+<kbd>4</kbd> and <kbd>Shift ⇧</kbd>+<kbd>Cmd ⌘</kbd>+<kbd>5</kbd>)
         - Clear Console (hint: it's <kbd>Cmd ⌘</kbd>+<kbd>K</kbd> on Mac, Windows/Linux users will have to google it)
-        - Open the Symbols Keyboard (<kbd>Ctrl ⌃</kbd>+<kbd>Cmd ⌘</kbd>+<kbd>Space</kbd>), take a look at the Technical Symbols (⌘) section.
+        - Open the Symbols Keyboard (<kbd>Ctrl ⌃</kbd>+<kbd>Cmd ⌘</kbd>+<kbd>Space</kbd>) and take a look at the Technical Symbols (in the `⌘` section).
         - ™
         - ©
         - ≠
