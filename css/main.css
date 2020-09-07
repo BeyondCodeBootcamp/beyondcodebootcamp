@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(234, 227, 204);
+}
+
+.white {
+    background-color: white;
+}
+
+.hint {
+    font-size: 1.2em;
+    color: red;
+}
