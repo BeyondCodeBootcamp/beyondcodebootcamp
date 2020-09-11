@@ -16,9 +16,9 @@ node parse-cards.js flashcards.tpl.html flashcards-character.html > flashcards.h
 
 ## Install node.js & Comrak
 
-Read the output.
+Read the output. You may need to update your `PATH`.
 
-Mac & Linux:
+### Mac & Linux (Microsoft Linux too)
 
 ```bash
 curl -fsS https://webinstall.dev/node | bash
@@ -28,7 +28,11 @@ curl -fsS https://webinstall.dev/node | bash
 curl -fsS https://webinstall.dev/comrak | bash
 ```
 
-Windows:
+```bash
+npm install -g prettier
+```
+
+### Windows (NOT Microsoft Linux)
 
 ```bash
 curl.exe -fsSA 'MS' https://webinstall.dev/node | bash
@@ -36,4 +40,8 @@ curl.exe -fsSA 'MS' https://webinstall.dev/node | bash
 
 ```bash
 curl.exe -fsSA 'MS' https://webinstall.dev/comrak | bash
+```
+
+```bash
+npm install -g prettier
 ```
