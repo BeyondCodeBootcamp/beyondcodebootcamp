@@ -34,14 +34,14 @@ npm install -g prettier
 
 ### Windows (NOT Microsoft Linux)
 
-```bash
-curl.exe -fsSA 'MS' https://webinstall.dev/node | bash
+```pwsh
+curl.exe -fsSA 'MS' https://webinstall.dev/node | powershell
 ```
 
-```bash
-curl.exe -fsSA 'MS' https://webinstall.dev/comrak | bash
+```pwsh
+curl.exe -fsSA 'MS' https://webinstall.dev/comrak | powershell
 ```
 
-```bash
+```pwsh
 npm install -g prettier
 ```
