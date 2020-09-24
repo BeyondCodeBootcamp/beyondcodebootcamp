@@ -2,6 +2,13 @@
 
 ## Use these commands
 
+### pwd
+
+```bash
+# means 'P'rint 'W'orking 'D'irectory
+pwd
+```
+
 ### mkdir
 
 ```bash
@@ -43,15 +50,14 @@ lsd -AF --tree
 
 ```txt
 Demo/
-├── articles/
 ├── home/
 │  └── app/
 │     ├── .local/
 │     │  ├── bin/
 │     │  │  └── webi
 │     │  └── opt/
-│     └── Caddyfile
-├── README.md
+│     ├── Caddyfile
+│     └── README.md
 └── Users/
    └── me/
       ├── .local/
@@ -73,3 +79,8 @@ Demo/
             ├── 11/
             └── 12/
 ```
+
+1. Create the `Demo` folder from your HOME.
+2. Create all folders under `Demo/home` using `mkdir` (no `-p`)
+3. Create all folders under `Demo/home/app` from inside of `Demo/home`
+4. Create all folders under `Demo/Users` using `mkdir -p` only
