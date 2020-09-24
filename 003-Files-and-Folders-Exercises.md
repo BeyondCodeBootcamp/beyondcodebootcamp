@@ -28,9 +28,15 @@ vim SOME_FILE.md
 # You can push into one or more folders
 pushd ./Demo/home/
 pushd ./app/.local/
+
 # You can pop pack out to a previous level
 popd
+
+# You can see what a directory's contents look like
 lsd -AF
+
+# You can see what a directory's contents look like as a tree
+lsd -AF --tree
 ```
 
 ## Create a directory structure that looks like this
