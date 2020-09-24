@@ -57,13 +57,22 @@ Demo/
 │     │  │  └── webi
 │     │  └── opt/
 │     ├── Caddyfile
-│     └── README.md
+│     ├── README.md
+│     └── srv/
+│        └── www/
+│           └── example.com/
+│              └── public/
+│                 └── index.html
 └── Users/
    └── me/
       ├── .local/
       │  ├── bin/
       │  │  └── webi
       │  └── opt/
+      ├── Blog/
+      │  └── articles/
+      ├── github.com/
+      │  └── beyondcodebootcamp/
       └── Pictures/
          └── 2020/
             ├── 01/
