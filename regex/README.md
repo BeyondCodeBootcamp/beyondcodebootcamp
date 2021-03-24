@@ -25,9 +25,9 @@ Object/String form: `new RegExp("Needle", "ig")` will need double `\\`.
 ## Capture Groups
 
 | RegExp          | PCRE            | Meaning       |
-| --------------- | --------------- | ------------- | --- |
+| --------------- | --------------- | ------------- |
 | `(...)`         | `\(...\)`       | Capture Group |
-| `               | `               | `\|`          | OR  |
+| `\|`            | `\\\|`          | OR            |
 | `$1`, `$2`, ... | `\1`, `\2`, ... | Apply Group   |
 
 ## Quantity
