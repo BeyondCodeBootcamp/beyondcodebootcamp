@@ -17,7 +17,7 @@ Find and Replace, or Re-Format
 | `/Needle/i`             |      | I-Case Search for `needle`     |
 | `/Needle/ig`            |      | "Global" search for `needle`   |
 | `/Needle/igm`           |      | Multi-line search for `needle` |
-| a-z<br>A-Z<br>0-9<br>\_ |      | Literal Characters             |
+| `a-z`<br>`A-Z`<br>`0-9`<br>`_` |   | Literal Characters         |
 | `\`                     |      | Escape (reverse the meaning)   |
 
 Object/String form: `new RegExp("Needle", "ig")` will need double `\\`.
@@ -32,12 +32,12 @@ Object/String form: `new RegExp("Needle", "ig")` will need double `\\`.
 
 ## Quantity
 
-| RegExp  | PCRE     | Meaning                 |
-| ------- | -------- | ----------------------- |
-| `?`     | `\?`     | 0 or 1                  |
-| `*`     |          | 0+                      |
-| `+`     | `\+`     | 1+                      |
-| `{n,m}` | `\{n,m\} | ex: `{2,4}`from`n`to`m` |
+| RegExp  | PCRE      | Meaning                 |
+| ------- | --------- | ----------------------- |
+| `?`     | `\?`      | 0 or 1                  |
+| `*`     |           | 0+                      |
+| `+`     | `\+`      | 1+                      |
+| `{n,m}` | `\{n,m\}` | ex: `{2,4}`from`n`to`m` |
 
 ## Ranges
 
@@ -46,8 +46,8 @@ Object/String form: `new RegExp("Needle", "ig")` will need double `\\`.
 | `.`      |      | Any                         |
 | `[abc]`  |      | Any of `a`, `b`, or `c`     |
 | `[^abc]` |      | Any except `a`, `b`, or `c` |
-| `\w`     |      | alias for `[a-zA-Z0-9\_]`   |
-| `\W`     |      | alias for `[^a-zA-Z0-9\_]`  |
+| `\w`     |      | alias for `[a-zA-Z0-9_]`    |
+| `\W`     |      | alias for `[^a-zA-Z0-9_]`   |
 | `\d`     |      | alias for `[0-9]`           |
 | `\D`     |      | alias for `[^0-9]`          |
 | `\s`     |      | alias for `[ \t\r\n]`       |
