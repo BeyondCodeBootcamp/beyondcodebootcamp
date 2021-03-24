@@ -2,8 +2,9 @@
 
 Find and Replace, or Re-Format
 
+- cli: Search documentation
 - vim: Find and replace in code
-- rg (grep): Find across directories
+- rg (grep): Search through code, across directories
 - js: fix malformed data (ex: Phone numbers)
 - html: scrape websites
 
