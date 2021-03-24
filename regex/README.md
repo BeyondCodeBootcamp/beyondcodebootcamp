@@ -24,11 +24,11 @@ Object/String form: `new RegExp("Needle", "ig")` will need double `\\`.
 
 ## Capture Groups
 
-| RegExp          | PCRE            | Meaning       |
-| --------------- | --------------- | ------------- |
-| `(...)`         | `\(...\)`       | Capture Group |
-| `\|`            | `\\\|`          | OR            |
-| `$1`, `$2`, ... | `\1`, `\2`, ... | Apply Group   |
+| RegExp          | PCRE                 | Meaning       |
+| --------------- | -------------------- | ------------- |
+| `(...)`         | `\(...\)`            | Capture Group |
+| `\|`            | <code>\&vert;</code> | OR            |
+| `$1`, `$2`, ... | `\1`, `\2`, ...      | Apply Group   |
 
 ## Quantity
 
