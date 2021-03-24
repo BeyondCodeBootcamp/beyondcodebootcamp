@@ -7,6 +7,17 @@ Find and Replace, or Re-Format
 - js: fix malformed data (ex: Phone numbers)
 - html: scrape websites
 
+# Cautions
+
+> Regex is like salt: A little goes a long way, and a lot will put a bad taste in your mouth.
+
+Regex is very terse - it's easy to write, but nearly impossible to read.
+
+If you ever start using nested capture groups, or look-behinds, you may have gone down a dark path.
+You may need to stop.
+
+Better to be adequate than to be a master.
+
 # What is RegExp
 
 - Literals
