@@ -9,6 +9,11 @@ Find and Replace, or Re-Format
 
 # What is RegExp
 
+- Literals
+- Groups
+- Quantities
+- Ranges
+
 ## Literal Characters
 
 | RegExp                  | PCRE | Meaning                        |
