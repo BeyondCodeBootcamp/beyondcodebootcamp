@@ -21,6 +21,8 @@ Better to be adequate than to be a master.
 
 # What is RegExp
 
+Regular Expressions is basically a mini programming language unto itself, used for finding and replacing text.
+
 - Literals
 - Groups
 - Quantities
