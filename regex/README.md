@@ -4,7 +4,7 @@ Find and Replace, or Re-Format
 
 - vim: Find and replace in code
 - rg (grep): Find across directories
-- js: fix malformed data
+- js: fix malformed data (ex: Phone numbers)
 - html: scrape websites
 
 # What is RegExp
