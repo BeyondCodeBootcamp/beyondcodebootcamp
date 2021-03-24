@@ -42,6 +42,7 @@ Object/String form: `new RegExp("Needle", "ig")` will need double `\\`.
 | `?`     | `\?`      | 0 or 1                  |
 | `*`     |           | 0+                      |
 | `+`     | `\+`      | 1+                      |
+| `{n}`   | `\{n\}`   | ex: `{3}` exactly 3     |
 | `{n,m}` | `\{n,m\}` | ex: `{2,4}`from`n`to`m` |
 
 ## Ranges
@@ -66,11 +67,62 @@ Object/String form: `new RegExp("Needle", "ig")` will need double `\\`.
 | `^`    |            | Start                        |
 | `$`    |            | End                          |
 
-### JS-compatible
+# Examples
+
+## Format a Phone Number
+
+```txt
++1 (801) 555-1234
+801-555-1234
+18015551234
+801.555.1234
+801 555 1234
+```
+
+```js
+// replace all non-digit characters
+var phone = "801.555.1234".replace(/\D/g, '');
+
+// capture
+var m = phone.match(/(1?)(\d{3})(\d{3})(\d{4})/)
+
+console.log("+1 (" + m[2] + ") " + m[3] + "-" + m[4]);
+```
+
+## Match a website, or subdomain
+
+```txt
+// ZoOm.com                // match
+// zoom.com.evilhacker.com // no match
+// evilzoom.com            // no match
+// www.zoom.com            // match
+```
+
+```js
+var goodsite = "ZoOm.com";
+goodsite.match(/(^|.*\.)zoom\.com$/i)
+```
+
+## Parse a version number
+
+Parse valid semver (doesn't reject invalid semver)
+
+```txt
+"v3.0.0-rc.1+abcdef"
+```
+
+```js
+"v3.0.0-rc.1+abcdef".match(/v?(\d+)\.(\d+)\.(\d+)(-([^+]*))?(\+(.*))/)
+```
+
+# JS vs PCRE
+
+## JS-compatible
 
 - [`rg`](https://webinstall.dev/rg)
 
-### Perl-compatible
+## Perl-compatible
 
 - `vim`
 - `grep`
+
