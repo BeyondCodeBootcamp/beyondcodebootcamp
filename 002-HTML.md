@@ -1,5 +1,14 @@
 # HTML Cheat Sheet
 
+```html
+<html>
+    <body style="font: sans">
+    <!-- nothing to see yet -->
+    &lt;Hello &amp; Goodbye!&gt; &#x2665;
+    </body>
+</html>
+```
+
 ![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fodditymall.com%2Fincludes%2Fcontent%2Fupload%2Fadult-paint-by-numbers-kit-8321.gif&f=1&nofb=1)
 
 - What HTML is
