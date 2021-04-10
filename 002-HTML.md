@@ -1,5 +1,8 @@
 # HTML - Language Overview
 
+> If HTML were a written language, it would be just the letters. \
+> If HTML were paint-by-numbers artwork, it would be the canvas.
+
 ```html
 <html>
     <body style="font: sans">
