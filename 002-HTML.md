@@ -55,8 +55,9 @@ Likewise...
 ### Rules
 
 1. Do nothing for `<!DOCTYPE html>`
-2. If you see one of the exceptional tags, ignore (including other special tags and comments) until the closing tag
-3. If you see `<!-- ` (including the space, ignore everything until ` -->`
+2. If you see `<!-- ` (including the space) ignore everything until ` -->`
+3. If you see a tag, make a mental note of it.
+5. If you see one of the exceptional tags, ignore (including other special tags and comments) until the closing tag
 
 ### HTML Example
 
