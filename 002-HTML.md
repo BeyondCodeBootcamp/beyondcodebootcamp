@@ -19,7 +19,7 @@ HTML is a "markup" language - which basically means that it's a language for wri
 It was not intended for the world of web apps as we know it today, but in today's web it is the "scaffolding". \
 You can think of it as the initial lines and numbers of a paint-by-numbers canvas - it gives other things a place to go.
 
-![](https://www.herrschners.com/images/herrschners/content/PaintByNumber.jpg)
+![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcoloringhome.com%2Fcoloring%2Faie%2FRRy%2FaieRRyoxT.gif&f=1&nofb=1)
 
 ### The smallest language
 
@@ -145,3 +145,5 @@ HTML is boring. Anything that makes it not boring typically breaks web pages and
 Ever tried to load a page on your phone, but you can't get to it because it's scaled wrong
 and has so many popups for cookies and subscribe widgets and such that you literally can't
 read the information on the page? Cool stuff, huh?
+
+![](https://reductress.com/wp-content/uploads/2015/07/bad-mona-lisa-820x500.jpg)
