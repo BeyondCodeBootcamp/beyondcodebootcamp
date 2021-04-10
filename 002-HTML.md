@@ -16,7 +16,9 @@ HTML is a "markup" language - which basically means that it's a language for wri
 
 > HTML doesn't do much of anything on its own, but it creates a place for other things to go.
 
-It was not intended for the world of web apps as we know it today, but in today's web it is the "scaffolding". \
+HTML was intended for the web of papers being shared by researchers, not the world of web apps as we know it today.
+
+In today's web it is the "scaffolding". \
 You can think of it as the initial lines and numbers of a paint-by-numbers canvas - it gives other things a place to go.
 
 ![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcoloringhome.com%2Fcoloring%2Faie%2FRRy%2FaieRRyoxT.gif&f=1&nofb=1)
