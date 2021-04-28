@@ -8,6 +8,7 @@ The markdown-compatible parts of HTML, in table form - with examples! :smiley:
 - Best at-a-glance reference: [w3schools HTML Reference](https://www.w3schools.com/Tags/ref_byfunc.asp)
 - Best technical reference: [MDN HTML elements reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 - Best browser support matrix: [Can I Use](https://caniuse.com/)
+- GitHub HTML Support Test: [GitHub HTML Whitelist](https://gist.github.com/coolaj86/89821fe046623d5503ce5c4133e70506)
 
 ## Table of Contents
 
