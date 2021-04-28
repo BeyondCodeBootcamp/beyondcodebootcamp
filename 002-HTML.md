@@ -73,10 +73,12 @@ Likewise...
 
 ### HTML Example
 
+The **entire language**, demonstrated in a single example:
+
 ```html
 <html>
     <body style="font: sans">
-    <!-- nothing to see yet -->
+    <!-- <Hello & Goobye!> ♥ -->
     &lt;Hello &amp; Goodbye!&gt; &#x2665;
     </body>
 </html>
@@ -97,8 +99,7 @@ Specifically, HTML is NOT:
 - JavaScript, WebGL, or Web Assembly
 - CSS or SVG
 
-It is a language, but it isn't "code". You cannot use it to add 
-The **entire language**, in a nutshell
+It is a language, but it isn't "code". You cannot use it to add or loop.
 
 ### CSS
 
@@ -148,8 +149,6 @@ The primary reason to use semantic HTML is to make it easy for **screen readers*
 See also <https://www.w3schools.com/html/html5_semantic_elements.asp>.
 
 If you actually are familiar with Semantic HTML, then you would be putting words like "Accessibility" and `a11y` on your resume.
-
-For example, when you use `<ul>` and `<li>`
 
 ## The Most Important Rule
 

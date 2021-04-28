@@ -13,7 +13,7 @@ The markdown-compatible parts of HTML, in table form - with examples! :smiley:
 
 | [Headings](#headings) | `<a id="heading"><h3>Heading</h3></a>` | <h3>Heading</h3> |
 | --------------------- | ----------- | --------- |
-| [Inline Formatting](#inline-formatting) | text node<br>\<span class="example">span\</span><br><strong>\<strong>strong\</strong></strong><br><em>\<em>em\</em></em><br><strike>\<del>del\<del></del><br><code>\<code>code\</code></code><br><kbd>\<kbd>kbd\</kbd></kbd> |  text node<br>span (queriable text)<br>**strong**<br>*em*<br>~del~<br>`code`<br><kbd>kbd</kbd> |
+| [Inline Formatting](#inline-formatting) | text node<br>\<span class="example">span\</span><br><strong>\<strong>strong\</strong></strong><br><em>\<em>em\</em></em><br><strike>\<del>del\<del></del><br>\<sup>sup\</sup><br>\<sub>sub\</sub><br><code>\<code>code\</code></code><br><kbd>\<kbd>kbd\</kbd></kbd> |  text node<br>span (queriable text)<br>**strong**<br>*em*<br>~del~<br><sup>sup</sup><br><sub>sub</sub><br>`code`<br><kbd>kbd</kbd> |
 | [Emoji & Escape Codes](#emojis--escape-codes) | \&lt;<br>\&amp;<br>\&nbsp;<br>\&#x1F44D | \<<br>&<br>` ` (non-breaking space)<br>:+1: |
 | [Block Formatting](#block-formatting) | `<div class="example">a box area</div>`<br>`<blockquote>a famous quote</blockquote>` | a box area<br><blockquote>a famous quote</blockquote> |
 | [Lists](#lists) | <pre>\<ul><br>    \<li>item one\</li><br>    \<li>item two\</li><br>\</ul></pre> | <ul><li>item one</li><li>item two</li><ul> |
@@ -38,6 +38,7 @@ _Note: That table ^^ is written in Markdown, but contains a lot of escapes and H
 </details>
   </li>
   <li><kbd>Enter</kbd> &lt;kbd> often has a nice default style, but is HTML-only</li>
+  <li>&lt;sup><sup>sup</sup> & &lt;sub><sub>sub</sub>, which is a pity because they're sometimes useful
   <li>&lt;div>, &lt;span>, and therefore `class="xxxx"` - no custom query selectors in Markdown</li>
   <li>... and that's about it - at least of the things you'd want for a blog</li>
 </ul>
@@ -190,6 +191,8 @@ _Note: That table ^^ is written in Markdown, but contains a lot of escapes and H
 &amp;lt;strong>
 &amp;lt;em>
 &amp;lt;del>
+&amp;lt;sup>
+&amp;lt;sub>
 &amp;lt;code>
 &amp;lt;kbd></pre>
       <br>
@@ -205,6 +208,10 @@ _Note: That table ^^ is written in Markdown, but contains a lot of escapes and H
       &lt;em>italic&lt;/em>
       <br>
       i&lt;em>tal&lt;/em>ic
+      <br>
+      word&lt;sup>superscript&lt;/sup>
+      <br>
+      word&lt;sub>subscript&lt;/sub>
       <br>
       <br>
       &lt;strong>&lt;em>both&lt;/em>&lt;/strong>
@@ -233,10 +240,14 @@ _Note: That table ^^ is written in Markdown, but contains a lot of escapes and H
 <strong>&lt;strong></strong>
 <em>&lt;em></em>
 <del>&lt;del></del>
+<sup>&lt;sup></sup>
+<sub>&lt;sub></sub>
 <code>&lt;code></code>
 <kbd>&lt;kbd></kbd></pre>
       <br>
-      default style
+      non-queriably text
+      <br>
+      <span>queriable text</span>
       <br>
       <strong>bold</strong>
       <br>
@@ -246,6 +257,10 @@ _Note: That table ^^ is written in Markdown, but contains a lot of escapes and H
       <em>italic</em>
       <br>
       i<em>tal</em>ic
+      <br>
+      word<sup>superscript</sup>
+      <br>
+      word<sub>subscript</sub>
       <br>
       <br>
       <strong><em>both</em></strong>
@@ -264,8 +279,7 @@ _Note: That table ^^ is written in Markdown, but contains a lot of escapes and H
       <strong><em><del><code>all of the above</code><del></em></strong>
       <br><br><br>
       <br>
-      <br>
-      <kbd>Cmd ⌘</kbd> 
+      <kbd>Cmd ⌘</kbd>
     </td>
   </tr>
 </table>
@@ -604,6 +618,54 @@ perfectly    preserves
   </tr>
   <tr>
     <td>
+      <pre>&lt;a href="mailto:john.doe@example.com"
+    >john.doe@example.com&lt;/a></pre>
+    </td>
+    <td>
+      <a href="mailto:john.doe@example.com"
+         >john.doe@example.com</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Note</strong>
+    </td>
+    <td>
+      For security reasons these special links <strong>won't work</strong> directly on Github.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <pre>&lt;a href="tel:+18008675309"
+    >1 (800) 867-5309&lt;/a></pre>
+    </td>
+    <td>
+      <a href="tel:+18008675309"
+         >1 (800) 867-5309</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <pre>&lt;a href="javascript:window.alert('Hello!')"
+    >Click me!&lt;/a></pre>
+    </td>
+    <td>
+      <a href="javascript:window.alert('Hello!')"
+         >Click me!</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <pre>&lt;a href="spotify:search:Taylor+Swift"
+    >Taylor Swift on Spotify&lt;/a></pre>
+    </td>
+    <td>
+      <a href="spotify:search:Taylor+Swift"
+         >Taylor Swift on Spotify</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
       <pre>&lt;picture>
   &lt;img src="https://amazon.com/favicon.ico"
      alt="Amazon's logo"
@@ -635,6 +697,8 @@ perfectly    preserves
     </td>
   </tr>
 </table>
+
+For custom URL schemes see <https://en.wikipedia.org/wiki/List_of_URI_schemes>.
 
 
 <!-- Nesting -->
@@ -704,3 +768,4 @@ perfectly    preserves
 - https://websitesetup.org/html5-cheat-sheet/
 - https://github.com/LeCoupa/awesome-cheatsheets/blob/master/frontend/html5.html
 - https://devchat.tv/js-jabber/jsj-478-browser-standards-rampage-can-we-have-nice-things/ (some good history of HTML in there)
+- https://en.wikipedia.org/wiki/List_of_URI_schemes
