@@ -14,7 +14,7 @@ The markdown-compatible parts of HTML, in table form - with examples! :smiley:
 
 | [Headings](#headings) | `<a id="heading"><h3>Heading</h3></a>` | <h3>Heading</h3> |
 | --------------------- | ----------- | --------- |
-| [Inline Formatting](#inline-formatting) | text node<br>\<span class="example">span\</span><br><strong>\<strong>strong\</strong></strong><br><em>\<em>em\</em></em><br><del>\<del>del\</del></del><br>\<sup>sup\</sup><br>\<sub>sub\</sub><br><code>\<code>code\</code></code><br><kbd>\<kbd>kbd\</kbd></kbd> |  text node<br>span (queriable text)<br>**strong**<br>*em*<br>~del~<br><sup>sup</sup><br><sub>sub</sub><br>`code`<br><kbd>kbd</kbd> |
+| [Inline Formatting](#inline-formatting) | text node<br>\<span class="example">span\</span><br><strong>\<strong>strong\</strong></strong><br><em>\<em>em\</em></em><br><del>\<del>del\</del></del><br>\<sup>sup\</sup><br>\<sub>sub\</sub><br>\<q>q\</q><br><code>\<code>code\</code></code><br><kbd>\<kbd>kbd\</kbd></kbd> |  text node<br>span (queriable text)<br>**strong**<br>*em*<br>~del~<br><sup>sup</sup><br><sub>sub</sub><br><q>q</q><br>`code`<br><kbd>kbd</kbd> |
 | [Emoji & Escape Codes](#emojis--escape-codes) | \&lt;<br>\&amp;<br>\&nbsp;<br>\&#x1F44D; | \<<br>&<br>` ` (non-breaking space)<br>:+1: |
 | [Block Formatting](#block-formatting) | `<div class="example">a box area</div>`<br>`<blockquote>a famous quote</blockquote>` | a box area<br><blockquote>a famous quote</blockquote> |
 | [Lists](#lists) | <pre>\<ul><br>    \<li>item one\</li><br>    \<li>item two\</li><br>\</ul></pre> | <ul><li>item one</li><li>item two</li><ul> |
