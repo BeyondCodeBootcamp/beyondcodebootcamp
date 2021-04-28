@@ -703,3 +703,4 @@ perfectly    preserves
 - http://www.simplehtmlguide.com/cheatsheet.php
 - https://websitesetup.org/html5-cheat-sheet/
 - https://github.com/LeCoupa/awesome-cheatsheets/blob/master/frontend/html5.html
+- https://devchat.tv/js-jabber/jsj-478-browser-standards-rampage-can-we-have-nice-things/ (some good history of HTML in there)
