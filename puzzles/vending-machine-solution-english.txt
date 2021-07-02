@@ -67,3 +67,8 @@ Rules for getting Ideal Change:
     
 Caveats:
   If the Total Cash or the Total Cost is not a number in USD, give up.
+
+
+TODO: combine these:
+- https://gist.github.com/coolaj86/e45280e1392e5873c02c794cc8a48eef
+- https://gist.github.com/coolaj86/99c506b1f83e6ec0b0243b9d86dd5ac2
