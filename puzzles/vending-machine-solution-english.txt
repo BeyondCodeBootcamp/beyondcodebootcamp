@@ -1,0 +1,69 @@
+(Just some notes for my video, atm)
+
+Word Bank:
+  - Given
+  - Return
+  - If
+  - As long as
+  - Greater than or equal to
+  - let x start at y
+  - minus, plus
+  - Increment, decrement
+  - to the power of
+  - when
+  - Define the rule as
+  - For each of
+  - For example
+  - Give up
+  - Exit
+
+// Indentation is the most important skill you will ever learn
+// Python or Prettier
+
+Red, Green, Refactor
+
+Rules for getting Ideal Change:
+  Given:
+    - Total Cash
+    - Total Cost
+    - Demoninations
+  Return:
+    - The change, in the fewest of each demonination of currency, specifically
+      - number of $5 bills
+      - number of $1 bills
+      - number of 25¢ coins
+      - number of 10¢ coins
+      - number of 5¢ coins
+      - number of 1¢ coins
+  
+  Let the Change Due start at Total Cash - Total Cost
+  (ex: 8.42 = 10.00 - 1.58)
+  
+  As long as the Change Due is greater than or equal to 5.00,
+    Increment the number of $5 bills by one
+    Decrement the Change Due by $5
+    
+  As long as the Change Due is greater than or equal to 1.00,
+    Increment the number of $1 bills by one
+    Decrement the Change Due by $1
+      
+  As long as the Change Due is greater than or equal to 0.25,
+    Increment the number of 25¢ coins by one
+    Decrement the Change Due by 25¢
+    
+  As long as the Change Due is greater than or equal to 0.10,
+    Increment the number of 10¢ coins by one
+    Decrement the Change Due by 10¢
+    
+  As long as the Change Due is greater than or equal to 0.05,
+    Increment the number of 5¢ coins by one
+    Decrement the Change Due by 5¢
+    
+  As long as the Change Due is greater than or equal to 0.01,
+    Increment the number of 1¢ coins by one
+    Decrement the Change Due by 1¢
+    
+  Return the tally
+    
+Caveats:
+  If the Total Cash or the Total Cost is not a number in USD, give up.
