@@ -11,7 +11,7 @@ The vending machine can tender the following denominations:
 - 5¢
 - 1¢
 
-Write a function `getChange` that
+Write a function `getIdealChange` that
 - receives the total cost of items purchased and the total cash given
 - returns the ideal number of each denomination
 
