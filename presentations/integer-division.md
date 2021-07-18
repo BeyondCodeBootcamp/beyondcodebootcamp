@@ -471,12 +471,12 @@ it gives you the leftovers
 > What's my change for a 3.50 Snickers?
 
 ```js
-150 / 100 // dollars
+1_50 / 1_00 // dollars
 = 1
 ```
 
 ```js
-150 % 100
+1_50 % 1_00
 = 50
 ```
 
@@ -552,7 +552,7 @@ dank_big_number % Math.pow(2, 1_279) - 1
 Human-Readable Time!
 
 ```js
-21d 2h 8m 26s
+4d 10h 8m 26s
 ```
 
 [comment]: # (!!!)
