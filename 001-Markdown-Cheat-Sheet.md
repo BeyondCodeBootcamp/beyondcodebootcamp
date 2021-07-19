@@ -11,7 +11,7 @@ The best parts of the best cheat sheets, in table form! :smiley:
 
 | [Headings](#headings) | `### Heading` | <h3>Heading</h3> |
 | --------------------- | ----------- | --------- |
-| [Inline Formatting](#inline-formatting) | **\*\*bold\*\***<br>_\_italic\__<br><code>\`code\`</code><br>~\~strike\~~ |  **bold**<br>_italic_<br>`code`<br>~strike~ |
+| [Inline Formatting](#inline-formatting) | **\*\*bold\*\***<br>_\_italic\__<br>`` `code` `` ```` ``code`` ```` `````` ````code```` ``````<br>~\~strike\~~ |  **bold**<br>_italic_<br>`code` ``code`` ````code````<br>~strike~ |
 | [Emoji Shortcodes](#emoji-shortcodes) | `:+1:` | :+1: |
 | [Block Formatting](#block-formatting) | `> a famous quote` | <blockquote>a famous quote</blockquote> |
 | [Lists](#lists) | `- item one` | <ul><li>item one</li><ul> |
