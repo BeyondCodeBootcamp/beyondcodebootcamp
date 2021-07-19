@@ -170,6 +170,12 @@ _Note: This table is written entirely in pre-rendered HTML_
       in`li`ne
       <br>
       \`inline backticks\`
+      <br>
+      ``escaped ` backticks ``` ``
+      <br>
+      ```` ` `` ``` ````
+      <br>
+      (use 1, 2, 4, 6, 8, or any even number of backticks for inline code)
       <br><br>
       ***~`all of the above`~***
       <br>
@@ -205,6 +211,12 @@ _Note: This table is written entirely in pre-rendered HTML_
       in<code>li</code>ne
       <br>
       `inline backticks`
+      <br>
+      <code>escaped ` backticks ```</code>
+      <br>
+      <code>` `` ```</code>
+      <br>
+      &nbsp;
       <br><br>
       <strong><em><del><code>all of the above</code><del></em></strong>
       <br>
