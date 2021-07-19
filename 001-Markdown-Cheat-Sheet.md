@@ -18,7 +18,7 @@ The best parts of the best cheat sheets, in table form! :smiley:
 | [Tables](#tables) | <pre>\| Abc \| Def \| Ghi \|<br>\| --- \| --- \| --- \|<br>\| 123 \| 456 \| 789 \|</pre> | <table><thead><tr><th>Abc</th><th>Def</th><th>Ghi</th></tr></thead><tbody><tr><td>123</td><td>456</td><td>789</td></tr></tbody></table> |
 | [Links](#links--images) | `https://beyondcodebootcamp.com` | <https://beyondcodebootcamp.com> |
 | [Images](#links--images) | `![](https://amazon.com/favicon.ico)` | ![](https://amazon.com/favicon.ico) |
-  | [Code Blocks](#code-blocks) | <pre>\`\`\`md<br>\*\*bold\*\* \_italic\_ \`code\`<br>\`\`\`</pre> <pre>\`\`\`\`\`md<br>\`\`\`md<br>\*\*bold\*\* \_italic\_ \`code\`<br>\`\`\`<br>\`\`\`\`\`</pre> | <pre language="markdown"><code>**\*\*bold\*\*** _\_italic\__ \`code\`</code></pre> <pre language="markdown"><code>\`\`\`md <br>\*\*bold\*\* \_italic\_ \`code\` <br>\`\`\` </code></pre> |
+  | [Code Blocks](#code-blocks) | <pre>\`\`\`mkdn<br>\*\*bold\*\* \_italic\_ \`code\`<br>\`\`\`</pre> <pre>\`\`\`\`\`mkdn<br>\`\`\`mkdn<br>\*\*bold\*\* \_italic\_ \`code\`<br>\`\`\`<br>\`\`\`\`\`</pre> | <pre language="markdown"><code>**\*\*bold\*\*** _\_italic\__ \`code\`</code></pre> <pre language="markdown"><code>\`\`\`mkdn <br>\*\*bold\*\* \_italic\_ \`code\` <br>\`\`\` </code></pre> |
 | Horizontal Rule | --- | <hr> |
 
 _Note: That table ^^ is written in Markdown, but contains a lot of escapes and HTML._
@@ -584,7 +584,7 @@ function greet() {
   </tr>
   <tr>
     <td>
-      <pre>```md
+      <pre>```mkdn
 ~~~txt
 **Look, ma!** It's _Markdown_!
 ~~~
@@ -598,14 +598,14 @@ function greet() {
   </tr>
   <tr>
     <td>
-      <pre>    ```md
+      <pre>    ```mkdn
     ~~~txt
     **Look, ma!** It's _Markdown_!
     ~~~
     ```</pre>
     </td>
     <td>
-      <pre lang="markdown"><code>```md
+      <pre lang="markdown"><code>```mkdn
 ~~~txt
 **Look!** It's _Markdown_!
 ~~~
