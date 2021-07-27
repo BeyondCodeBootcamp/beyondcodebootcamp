@@ -1,3 +1,5 @@
+- Video: [Beyond Code Live 002 - Intro to (a.k.a. Mastering) Markdown](https://youtu.be/iv1pZKH3c-Q)
+
 # Complete Github Markdown Cheat Sheet
 
 The best parts of the best cheat sheets, in table form! :smiley:
