@@ -1,4 +1,8 @@
-# These slides are built with [_Markdown Slides_][mds]
+# Moved
+
+See [github.com/BeyondCodeBootcamp/presos](https://github.com/BeyondCodeBootcamp/presos)
+
+## These slides are built with [_Markdown Slides_][mds]
 
 [mds]: https://github.com/dadoomer/markdown-slides
 
@@ -8,11 +12,11 @@ You'll need:
 - mdslides
 - a single markdown file
 
-## How to Install Pyenv + Python
+### How to Install Pyenv + Python
 
 See https://webinstall.dev/pyenv
 
-### Install pyenv
+#### Install pyenv
 
 ```bash
 curl -sS https://webinstall.dev/pyenv | bash
@@ -20,7 +24,7 @@ curl -sS https://webinstall.dev/pyenv | bash
 
 If you see `WARNING: Can not proceed... remove '~/.pyenv' first`, then you already have `pyenv` installed. No worries. Carry on.
 
-### Install the latest python 3
+#### Install the latest python 3
 
 Check the latest version:
 
@@ -41,13 +45,13 @@ pyenv global 3.9.1
 python --version
 ```
 
-### Install Markdown Slides with pip
+#### Install Markdown Slides with pip
 
 ```bash
 python -m pip install git+https://gitlab.com/da_doomer/markdown-slides.git
 ```
 
-## Create Slides
+### Create Slides
 
 See [presentation.md](https://github.com/dadoomer/markdown-slides/blob/master/example/presentation.md) and the [reveal.js cheat sheet](https://revealjs.com/markdown/).
 
