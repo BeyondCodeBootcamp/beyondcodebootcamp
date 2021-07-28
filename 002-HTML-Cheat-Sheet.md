@@ -1,6 +1,6 @@
 # Videos
 
-- [What HTML is NOT](https://youtu.be/WWY7Rfjl2LQ) [Written Article](https://github.com/BeyondCodeBootcamp/beyondcodebootcamp/blob/main/002-HTML.md)
+- [What HTML is NOT](https://youtu.be/WWY7Rfjl2LQ) (also: [Written Article](https://github.com/BeyondCodeBootcamp/beyondcodebootcamp/blob/main/002-HTML.md))
 - [What HTML is, for Web Pages](https://youtu.be/1POS1EVvryY)
 
 # Exemplary HTML Cheat Sheet (for Articles)
