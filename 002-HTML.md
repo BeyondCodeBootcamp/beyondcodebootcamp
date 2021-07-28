@@ -1,3 +1,8 @@
+# Videos
+
+- [What HTML is NOT](https://youtu.be/WWY7Rfjl2LQ)
+- [What HTML is, for Web Pages](https://youtu.be/1POS1EVvryY) (see also: [Written Article](/002-HTML-Cheat-Sheet.md))
+
 # HTML - Language Overview
 
 > If HTML were a written language, it would be just the letters. \
