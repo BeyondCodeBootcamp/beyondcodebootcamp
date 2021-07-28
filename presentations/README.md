@@ -106,7 +106,7 @@ Note:
 - The `[comment]: # (!!!)` bits signify the END of a slide and contain metadata pertaining to the slide above them.
 - DO NOT use `prettier` on the slides (it will ruin the comments)
    ```bash
-   echo '*/**.js' >> .prettierignore
+   echo '**/*.md' >> .prettierignore
    ```
 
 It's basically reveal.js, but with the nasty html taken out of your way.
