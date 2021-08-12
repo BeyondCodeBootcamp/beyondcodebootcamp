@@ -33,20 +33,18 @@ documentation on GitHub:
 <details open="open">
   <summary>details</summary>
   <pre><code>
-    &lt;details open="open">
-      &lt;summary>details&lt;/summary>
-      Use the &lt;details> tag to create collapsable lists
-    &lt;details>
-  </code></pre>
+&lt;details open="open">
+  &lt;summary>details&lt;/summary>
+  Use the &lt;details> tag to create collapsable lists
+&lt;/details></code></pre>
 </details>
 <details open="open">
   <summary>kbd</summary>
-  Use &lt;kbd> to create borders around images, or make buttons.
-  <pre><code>
-    &lt;kbd>&lt;a href="https://example.com/forms/new">Create New Form&lt;/a>&lt;/kbd>
+  <pre><code>Use &lt;kbd> to create borders around images, or make buttons.
+
+&lt;kbd>&lt;a href="https://example.com/forms/new">Create New Form&lt;/a>&lt;/kbd>
     
-    &lt;kbd>&lt;img src="https://example.com/screenshot.png" />&lt;/kbd>
-  </code></pre>
+&lt;kbd>&lt;img src="https://example.com/screenshot.png" />&lt;/kbd></code></pre>
 </details>
 
 ## Github Flavored Markdown by Example
