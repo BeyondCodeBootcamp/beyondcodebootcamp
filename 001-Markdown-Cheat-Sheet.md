@@ -9,7 +9,7 @@ The best parts of the best cheat sheets, in table form! :smiley:
 - Best in-depth guide: [markdownguide.org/basic-syntax](https://www.markdownguide.org/basic-syntax/)
 - Best support test: [Markdown Support Test](https://gist.github.com/coolaj86/6da3922d3748cf76b68f73f1f5b6d8ac)
 
-## Table of Contents
+## Table of Contents (Mini Cheat Sheet)
 
 | [Headings](#headings) | `### Heading` | <h3>Heading</h3> |
 | --------------------- | ----------- | --------- |
@@ -24,6 +24,30 @@ The best parts of the best cheat sheets, in table form! :smiley:
 | Horizontal Rule | --- | <hr> |
 
 _Note: That table ^^ is written in Markdown, but contains a lot of escapes and HTML._
+
+## Non-Markdown
+
+There are also a few bits of non-markdown (HTML) that you should know if you're creating
+documentation on GitHub:
+
+<details open="open">
+  <summary>details</summary>
+  <pre><code>
+    &lt;details open="open">
+      &lt;summary>details&lt;/summary>
+      Use the &lt;details> tag to create collapsable lists
+    &lt;details>
+  </code></pre>
+<details>
+<details open="open">
+  <summary>kbd</summary>
+  Use &lt;kbd> to create borders around images, or make buttons.
+  <pre><code>
+    &lt;kbd>&lt;a href="https://example.com/forms/new">Create New Form&lt;/a>&lt;/kbd>
+    
+    &lt;kbd>&lt;img src="https://example.com/screenshot.png" />&lt;/kbd>
+  </code></pre>
+<details>
 
 ## Github Flavored Markdown by Example
 
