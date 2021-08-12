@@ -38,7 +38,7 @@ documentation on GitHub:
       Use the &lt;details> tag to create collapsable lists
     &lt;details>
   </code></pre>
-<details>
+</details>
 <details open="open">
   <summary>kbd</summary>
   Use &lt;kbd> to create borders around images, or make buttons.
@@ -47,7 +47,7 @@ documentation on GitHub:
     
     &lt;kbd>&lt;img src="https://example.com/screenshot.png" />&lt;/kbd>
   </code></pre>
-<details>
+</details>
 
 ## Github Flavored Markdown by Example
 
