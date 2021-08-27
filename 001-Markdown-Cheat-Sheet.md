@@ -20,7 +20,7 @@ The best parts of the best cheat sheets, in table form! :smiley:
 | [Tables](#tables) | <pre>\| Abc \| Def \| Ghi \|<br>\| --- \| --- \| --- \|<br>\| 123 \| 456 \| 789 \|</pre> | <table><thead><tr><th>Abc</th><th>Def</th><th>Ghi</th></tr></thead><tbody><tr><td>123</td><td>456</td><td>789</td></tr></tbody></table> |
 | [Links](#links--images) | `https://beyondcodebootcamp.com` | <https://beyondcodebootcamp.com> |
 | [Images](#links--images) | `![](https://amazon.com/favicon.ico)` | ![](https://amazon.com/favicon.ico) |
-  | [Code Blocks](#code-blocks) | <pre>\`\`\`mkdn<br>\*\*bold\*\* \_italic\_ \`code\`<br>\`\`\`</pre> <pre>\`\`\`\`\`txt<br>\`\`\`mkdn<br>\*\*bold\*\* \_italic\_ \`code\`<br>\`\`\`<br>\`\`\`\`\`<br></pre> Supported tags: css, go, html, js, json, json5, mkdn, py, rs, sh, sql, txt, vim, and many more... | <pre language="markdown"><code>**\*\*bold\*\*** _\_italic\__ \`code\`</code></pre> <br><br> <pre language="markdown">\`\`\`mkdn <br>\*\*bold\*\* \_italic\_ \`code\` <br>\`\`\` </pre> |
+  | [Code Blocks](#code-blocks) | <pre>\`\`\`mkdn<br>\*\*bold\*\* \_italic\_ \`code\`<br>\`\`\`</pre> <pre>\`\`\`\`\`txt<br>\`\`\`mkdn<br>\*\*bold\*\* \_italic\_ \`code\`<br>\`\`\`<br>\`\`\`\`\`<br></pre> Supported tags: css, diff, go, html, js, json, json5, mkdn, py, rs, sh, sql, txt, vim, and many more... | <pre language="markdown"><code>**\*\*bold\*\*** _\_italic\__ \`code\`</code></pre> <br><br> <pre language="markdown">\`\`\`mkdn <br>\*\*bold\*\* \_italic\_ \`code\` <br>\`\`\` </pre> |
 | Horizontal Rule | --- | <hr> |
 
 _Note: That table ^^ is written in Markdown, but contains a lot of escapes and HTML._
