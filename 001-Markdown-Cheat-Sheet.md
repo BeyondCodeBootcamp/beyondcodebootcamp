@@ -1,4 +1,6 @@
-- Video: [Beyond Code Live 002 - Intro to (a.k.a. Mastering) Markdown](https://youtu.be/iv1pZKH3c-Q)
+# Related Video Tutorial
+
+[Beyond Code Live 002 - Intro to (a.k.a. Mastering) Markdown](https://youtu.be/iv1pZKH3c-Q)
 
 # Complete Github Markdown Cheat Sheet
 
