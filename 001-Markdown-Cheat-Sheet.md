@@ -622,7 +622,9 @@ function greet() {
       <pre lang="markdown"><code>````mkdn
 ```txt
 **Mo' ticks**, Mo' _nesting_!
-```</code></pre>
+```
+````
+`````</code></pre>
     </td>
   </tr>
   <tr>
