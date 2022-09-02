@@ -623,8 +623,7 @@ function greet() {
 ```txt
 **Mo' ticks**, Mo' _nesting_!
 ```
-````
-`````</code></pre>
+````</code></pre>
     </td>
   </tr>
   <tr>
